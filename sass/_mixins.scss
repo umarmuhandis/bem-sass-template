@@ -1,0 +1,6 @@
+@mixin baElements($w, $h) {
+  content: "";
+  display: inline-block;
+  width: $w;
+  height: $h;
+}
