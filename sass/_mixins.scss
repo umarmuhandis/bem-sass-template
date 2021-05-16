@@ -4,3 +4,11 @@
   width: $w;
   height: $h;
 }
+
+@mixin badImages($w, $h, $url, $bs: contain, $bp: left top) {
+  @include baElements($w, $h);
+  background-image: url($url);
+  background-size: $bs;
+  background-repeat: no-repeat;
+  background-position: $bp;
+}
